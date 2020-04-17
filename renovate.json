@@ -1,0 +1,26 @@
+{
+    "automerge": true,
+    "rangeStrategy": "bump",
+    "packageFiles": ["package.json"],
+    "separateMajorMinor": false,
+    "major": {
+        "dependencies": { "enabled": false },
+        "devDependencies": { "enabled": false }
+    },
+    "packageRules": [
+        {
+            "depTypeList": ["dependencies"],
+            "groupName": "dependencies",
+            "groupSlug": "dependencies",
+            "commitMessageTopic": "only dependencies",
+            "commitBody": "only dependencies"
+        },
+        {
+            "depTypeList": ["devDependencies"],
+            "groupName": "devDependencies",
+            "groupSlug": "devDependencies",
+            "commitMessageTopic": "only devDependencies",
+            "commitBody": "only devDependencies"
+        }
+    ]
+}
