@@ -1,6 +1,6 @@
 {
     "automerge": true,
-    "rangeStrategy": "pin",
+    "rangeStrategy": "bump",
     "packageFiles": ["package.json"],
     "separateMajorMinor": false,
     "major": {
