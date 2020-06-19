@@ -1,0 +1,23 @@
+{
+    "name": "@angular-ru/renovate-config",
+    "version": "1.0.0",
+    "private": true,
+    "description": "https://docs.renovatebot.com/config-presets/",
+    "homepage": "https://github.com/Angular-RU/angular-renovate-config#readme",
+    "bugs": {
+        "url": "https://github.com/Angular-RU/angular-renovate-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Angular-RU/angular-renovate-config.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "format": "yarn sort-package-json && yarn prettier --write \"**/*.{js,ts,html,css,scss,md,json,yml}\""
+    },
+    "prettier": "@angular-ru/prettier-config",
+    "devDependencies": {
+        "@angular-ru/prettier-config": "12.19.1",
+        "sort-package-json": "1.44.0"
+    }
+}
