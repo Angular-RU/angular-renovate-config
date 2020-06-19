@@ -3,7 +3,7 @@
     "automerge": true,
     "rangeStrategy": "bump",
     "timezone": "Europe/Moscow",
-    "separateMajorMinor": false,
+    "separateMajorMinor": true,
     "separateMinorPatch": true,
     "semanticCommits": true,
     "semanticCommitType": "build",
@@ -58,7 +58,7 @@
             "groupName": "ngxs"
         },
         {
-            "packagePatterns": ["^@types/*"],
+            "packagePatterns": ["^@types/*", "tslib"],
             "groupName": "typings"
         },
         {
