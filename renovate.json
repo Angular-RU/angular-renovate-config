@@ -10,6 +10,10 @@
     "major": { "automerge": false, "masterIssueApproval": true },
     "packageRules": [
         {
+            "depTypeList": ["peerDependencies"],
+            "enabled": false
+        },
+        {
             "depTypeList": ["dependencies"],
             "groupName": "dependencies",
             "groupSlug": "dependencies",
