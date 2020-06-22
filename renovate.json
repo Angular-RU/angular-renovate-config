@@ -1,5 +1,4 @@
 {
-    "extends": ["schedule:nonOfficeHours"],
     "automerge": true,
     "rangeStrategy": "bump",
     "timezone": "Europe/Moscow",
