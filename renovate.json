@@ -15,7 +15,7 @@
             "groupName": "dependencies",
             "groupSlug": "dependencies",
             "commitMessagePrefix": "feat:",
-            "commitMessageTopic": "only dependencies",
+            "commitMessageAction": "update",
             "commitBody": "only dependencies"
         },
         {
@@ -23,8 +23,8 @@
             "groupName": "devDependencies",
             "groupSlug": "devDependencies",
             "commitMessagePrefix": "ci:",
-            "commitMessageTopic": "only devDependencies",
-            "commitBody": "only devDependencies"
+            "commitMessageAction": "update",
+            "commitBody": "only dev dependencies"
         },
         {
             "packagePatterns": ["^@angular/"],
@@ -58,15 +58,19 @@
             "groupName": "ngxs"
         },
         {
-            "packagePatterns": ["^@types/*", "tslib"],
-            "groupName": "typings"
+            "packagePatterns": ["@types/eslint", "^@typescript-eslint/*", "^eslint*", "^tslint*"],
+            "groupName": "ESLint"
         },
         {
-            "packageNames": ["typescript"],
+            "packagePatterns": ["@types/jest", "^jest*", "ts-jest"],
+            "groupName": "Jest"
+        },
+        {
+            "packageNames": ["typescript", "tslib"],
             "separateMinorPatch": true
         },
         {
-            "packageNames": ["typescript"],
+            "packageNames": ["typescript", "tslib"],
             "updateTypes": ["minor", "major"],
             "masterIssueApproval": true
         }
