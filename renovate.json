@@ -42,6 +42,10 @@
             "groupName": "angular-cli"
         },
         {
+            "packagePatterns": ["^@angular-builders/*"],
+            "groupName": "angular-builders"
+        },
+        {
             "packagePatterns": ["^@angular/cdk$", "^@angular/material"],
             "groupName": "angular-components"
         },
@@ -55,14 +59,14 @@
         },
         {
             "packagePatterns": ["^@ngxs/*", "^@ngxs-labs/*"],
-            "groupName": "ngxs"
+            "groupName": "NGXS"
         },
         {
             "packagePatterns": ["@types/eslint", "^@typescript-eslint/*", "^eslint*", "^tslint*"],
             "groupName": "ESLint"
         },
         {
-            "packagePatterns": ["@types/jest", "^jest*", "ts-jest"],
+            "packagePatterns": ["@types/jest", "^jest*", "ts-jest", "jest-preset-angular"],
             "groupName": "Jest"
         },
         {
