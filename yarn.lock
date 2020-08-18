@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@angular-ru/prettier-config@13.7.1":
-  version "13.7.1"
-  resolved "https://registry.yarnpkg.com/@angular-ru/prettier-config/-/prettier-config-13.7.1.tgz#ecbce31a011ae9b90e30412365cbfdbe65102922"
-  integrity sha512-+2FuxBJ/lX05K9aL+BqKklaidNmLjMs0W9nAo98lKxfc17UBzIIOCsi7hAT2EgIFU+cdEbo2QHp+UY7S2nfSIQ==
+"@angular-ru/prettier-config@14.0.1":
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/@angular-ru/prettier-config/-/prettier-config-14.0.1.tgz#79b8cedd6e141c4c8cceda06fd98b203852f6254"
+  integrity sha512-UqCp0B6yIj3veDCbOFBKlsG9B0+iMs19Swj5sOGWQXA65KIj2dD3IBPeQRByb+RTh7FR+Aav7x73zg7s7u9srw==
   dependencies:
     prettier "2.0.5"
 
