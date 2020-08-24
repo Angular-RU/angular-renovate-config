@@ -1,6 +1,6 @@
 ## Sharable Renovate config
 
-![](https://travis-ci.org/Angular-RU/angular-renovate-config.svg?branch=master)
+[![](https://github.com/angular-ru/angular-ru-sdk/workflows/Angular-RU%20SDK%20CI/badge.svg)](https://github.com/Angular-RU/angular-renovate-config/actions?query=workflow%3A%22Angular-RU+Renovate+CI%22)
 
 #### Usage
 
