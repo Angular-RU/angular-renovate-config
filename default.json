@@ -73,6 +73,10 @@
             "groupName": "Jest"
         },
         {
+            "packageNames": ["ng-packagr"],
+            "separateMinorPatch": true
+        },
+        {
             "packageNames": ["typescript", "tslib"],
             "separateMinorPatch": true
         },
