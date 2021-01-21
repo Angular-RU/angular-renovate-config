@@ -7,7 +7,9 @@
     "semanticCommits": true,
     "semanticCommitType": "build",
     "packageFiles": ["package.json", "packages/**/package.json"],
-    "major": { "automerge": false },
+    "major": {
+        "automerge": false
+    },
     "packageRules": [
         {
             "depTypeList": ["peerDependencies"],
@@ -65,7 +67,7 @@
             "groupName": "NGXS"
         },
         {
-            "packagePatterns": ["@types/eslint", "^@typescript-eslint/*", "^eslint*", "^tslint*"],
+            "packagePatterns": ["@types/eslint", "^@typescript-eslint/*", "^eslint*", "^tslint*", "^@angular-eslint/*"],
             "groupName": "ESLint"
         },
         {
