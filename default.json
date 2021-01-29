@@ -2,7 +2,7 @@
     "automerge": true,
     "rangeStrategy": "bump",
     "timezone": "Europe/Moscow",
-    "separateMajorMinor": false,
+    "separateMajorMinor": true,
     "separateMinorPatch": true,
     "semanticCommits": true,
     "semanticCommitType": "build",
@@ -32,8 +32,11 @@
             "commitBody": "only dev dependencies"
         },
         {
-            "packagePatterns": ["^@angular/*", "^@angular-builders/*", "^@angular-devkit/*", "^@angular-ru/*"],
-            "excludePackagePatterns": [
+            "packagePatterns": [
+                "^@angular/*",
+                "^@angular-builders/*",
+                "^@angular-devkit/*",
+                "^@angular-ru/*",
                 "^@angular-builders/*",
                 "^@angular-devkit/*",
                 "^@angular-ru/*",
