@@ -3,7 +3,7 @@
     "rangeStrategy": "bump",
     "timezone": "Europe/Moscow",
     "separateMajorMinor": true,
-    "separateMinorPatch": true,
+    "separateMinorPatch": false,
     "semanticCommits": true,
     "semanticCommitType": "build",
     "packageFiles": ["package.json", "packages/**/package.json"],
